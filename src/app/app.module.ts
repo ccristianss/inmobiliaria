@@ -11,6 +11,7 @@ import { PerfilComponent } from './components/perfil/perfil.component';
 import { AlquileresComponent } from './components/alquileres/alquileres.component';
 import { HistorialComponent } from './components/historial/historial.component';
 import { FavoritosComponent } from './components/favoritos/favoritos.component';
+import { CasaComponent } from './components/casa/casa.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FavoritosComponent } from './components/favoritos/favoritos.component';
     PerfilComponent,
     AlquileresComponent,
     HistorialComponent,
-    FavoritosComponent
+    FavoritosComponent,
+    CasaComponent
   ],
   imports: [
     BrowserModule,
