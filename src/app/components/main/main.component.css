@@ -1,0 +1,70 @@
+main {
+  margin-left: 200px;
+  padding: 20px;
+  margin-top: 70px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search input[type="text"] {
+  padding: 10px;
+  width: 100%;
+}
+
+.search button {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.houses {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.houses li {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: calc(50% - 20px);
+}
+
+.houses img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.houses h2 {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.houses p {
+  font-size: 14px;
+  margin: 10px;
+}
+
+.houses .price {
+  color: #333;
+  font-weight: bold;
+}
+
+.houses .zone {
+  color: #777;
+}
+
+.houses .category {
+  color: #777;
+}
